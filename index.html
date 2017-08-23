@@ -1,0 +1,46 @@
+---
+layout: default
+title: index
+---
+
+
+<header>
+{% include header.html %}
+</header>
+<main class="container-fluid">
+  <div id="background-container">
+    <img id="background-image" class="img-fluid" src="{{ site.url }}/assets/images/trying2.svg">
+  </div>
+  <div id="self-portrait-container">
+      <img class="img-fluid" id="me-suited" src="{{ site.url }}/assets/images/me-suited.png" alt="Me looking suave in a blue suit">
+      <script type="text/javascript">$('#me-suited').transition({opacity: '0', x: '-30px'}, 0)</script>
+  </div>
+  <article id="typing-container" class="row text-center align-items-center">
+    <span id="typing" class="text-center">
+      Hello, my name is Stephen Agwu. I'm a budding UX/UI front end developer. Read below to find out more about me. Don't forget to tour my portfolio!
+    </span>
+  </article>
+  <script type="text/javascript">$('#typing-container').css('padding', '0%').width('0px').height('0px'); $('#typing').text('');</script>
+</main>
+<div id="quote" class="text-center">
+  <blockquote>
+    <p>"Peace is made and maintained with the conscious breath. Remember, breath."   <em>-Stephen Agwu</em></p>
+  </blockquote>
+</div>
+<section id="more-info">
+<div class="container-fluids" id="links">
+  <div class="row" id="links-container">
+    <div class="links col text-left">
+      <heading>About Me</heading><br><br>
+      <p>Find out more about <a href="{{ site.url }}/about" data-transition="slidedown"><i>Me</i></a> from my Alma Mater to my favorite manga</p>
+    </div>
+    <div class="links col text-left">
+      <heading>Portfolio</heading><br><br>
+      <p>See some of my <i>Work</i> including Codepens and Personal Projects</p>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="{{ page.title }}-back">
+{% include footer.html %}
+</footer>

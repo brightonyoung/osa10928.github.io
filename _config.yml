@@ -1,0 +1,12 @@
+name: Stephen Agwu
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+future: true
+safe: true
+
+destination: public
+source: src
+exclude: ['node_modules']

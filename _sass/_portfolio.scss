@@ -1,0 +1,29 @@
+
+
+.portfolio-back {
+	background: #1B1B1B;
+}
+
+.navbar {
+    border-bottom: none;
+	a#name {
+	  color: #D9D6CF;
+	}
+	.navbar-toggler span {
+	  background-color: #D9D6CF;
+    }
+    a.nav-item.nav-link.active {
+      color: #D9D6CF;
+    }
+}
+
+.navbar-light {
+	.navbar-toggler {
+	  border-color: #D9D6CF;
+	}
+}
+
+body {
+	background: #1B1B1B;
+	color: rgb(217,214,207);
+}

@@ -1,0 +1,50 @@
+@mixin sm-phones {
+	@media (max-width: 400px) and (min-width: 300px) { @content; }
+}
+@mixin md-phones {
+  @media (min-width: 340px) and (max-width: 420px) { @content; }
+}
+@mixin lg-phones {
+  @media (max-width: 420px) and (min-height: 700px) { @content; }
+}
+@mixin sm-phones-landscape {
+	@media only screen 
+  and (max-device-width: 500px) 
+  and (orientation: landscape) { @content } 
+}
+@mixin phones-landscape {
+	@media only screen 
+  and (min-width: 500px) and (max-width: 736px) and (max-height: 700px) 
+  and (orientation: landscape) { @content } 
+}
+@mixin lg-phones-landscape {
+	@media only screen and (min-device-width: 600px) and (max-device-height: 465px)
+  and (orientation: landscape) { @content } 
+}
+@mixin tablets-portrait {
+  @media (min-width: 600px) { @content; }
+}
+@mixin tablets-portrait-only {
+  @media (min-width: 600px) and (max-width: 1050px) and (min-height: 800px) and (max-height: 1500px) and (orientation: portrait) { @content; }
+}
+@mixin xs-desk {
+  @media (max-width: 340px) { @content; }
+}
+@mixin md-desk {
+  @media (min-width: 600px) and (max-width: 800px) and (min-device-height: 466px) and (max-width: 800px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin tablets-landscape {
+  @media (min-width: 900px) and (max-width: 1199px) and (max-height: 1199px) { @content; }
+}
+@mixin desk {
+  @media (min-width: 1055px) { @content; }
+}
+@mixin for-desktop-only {
+  @media (min-width: 1200px) and (max-width: 1799px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
