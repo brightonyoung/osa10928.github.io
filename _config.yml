@@ -8,5 +8,4 @@ future: true
 safe: true
 
 destination: public
-source: src
 exclude: ['node_modules']

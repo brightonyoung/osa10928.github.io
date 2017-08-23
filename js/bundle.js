@@ -22406,7 +22406,7 @@ class Hello extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 			'div',
 			null,
-			'Hey, I am the fucking best!!'
+			'Hey, I am the best!!'
 		);
 	}
 }
