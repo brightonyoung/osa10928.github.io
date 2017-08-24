@@ -7,6 +7,16 @@ $(document).ready(function(){
 	$('.about-category').click(function(){
 		aboutPage.loadArticle(this)
 	})
+	/*
+	if ($('#App')) {
+		new Tether({
+			element: $('#App'),
+			target: $('nav'),
+			attachment: 'top left',
+			targetAttachment: 'bottom left'
+		});
+	}
+	*/
 })
 
 //text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85807/typed.js"
