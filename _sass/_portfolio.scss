@@ -1,27 +1,93 @@
+/*
+#D9D6CF
+*/
 
-
+html {
+	height: 100%;
+}
 
 .navbar {
     border-bottom: none;
-    background: #1B1B1B !important;
+    background: rgb(40, 40, 40) !important;
 	a#name {
-	  color: #D9D6CF;
+	  color: #C8C8CD;
 	}
 	.navbar-toggler span {
-	  background-color: #D9D6CF;
+	  background-color: #C8C8CD;
     }
     a.nav-item.nav-link.active {
-      color: #D9D6CF;
+      color: #C8C8CD;
     }
 }
 
 .navbar-light {
 	.navbar-toggler {
-	  border-color: #D9D6CF;
+	  border-color: #C8C8CD;
 	}
 }
 
 body {
-	background: #1B1B1B;
-	color: rgb(212,209,202);
+    height: 100%;
+	background: url('/assets/images/icon-transparent.svg'), rgb(40, 40, 40);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #C8C8CD;
+	#App {
+	  height: 90%;
+	  margin-top: 10%;
+	  main {
+	        #opening-title h1 {
+	            font-size: 2rem;
+	        }
+	        #options {
+	            margin-top: 20%;
+	            a.row {
+	                color: #C8C8CD;
+	                background: rgba(50,50,50,1);
+	                background: -webkit-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	                background: -o-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	                background: -moz-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	                background: linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	                width: 50%;
+	                margin: 15% auto 0 auto;
+	                border: solid thin black;
+	                box-shadow: 2px 2px 1px black;
+	                border-radius: 0.2em;
+	                &:hover {
+	                    background: #C8C8CD;
+	                    color: black;
+	                    -webkit-transition: color 500ms linear;
+	                    -ms-transition: color 500ms linear;
+	                    transition: color 500ms linear;
+	                    -webkit-transition: background 500ms linear;
+	                    -ms-transition: background 500ms linear;
+	                    transition: background 500ms linear;
+	                }
+	            }
+	            #webpages-option {
+	                animation-name: shake1;
+	                animation-duration: 20s;
+	                animation-iteration-count: infinite;
+	            }
+	            #codepens-option {
+	                animation-name: shake2;
+	                animation-duration: 20s;
+	                animation-iteration-count: infinite;
+	            }
+	        }
+	    }
+	}
+}
+
+@keyframes shake1 {
+	0% {transform: rotateX(0deg);}
+	80% {transform: rotateX(0deg);}
+	85% {transform: rotateX(1080deg);}
+}
+
+@keyframes shake2 {
+	0% {transform: rotateX(0deg);}
+	90% {transform: rotateX(0deg);}
+	95% {transform: rotateX(1080deg);}
 }
