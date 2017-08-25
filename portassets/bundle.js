@@ -22438,7 +22438,7 @@ class Opening extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 					{ href: "#", className: "row", id: "webpages-option" },
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 						"div",
-						{ className: "option col text-center" },
+						{ className: "option col text-center btn-lg" },
 						"Webpages"
 					)
 				),
@@ -22447,7 +22447,7 @@ class Opening extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 					{ href: "#", className: "row", id: "codepens-option" },
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 						"div",
-						{ className: "option col text-center" },
+						{ className: "option col text-center btn-lg" },
 						"Codepens"
 					)
 				)
