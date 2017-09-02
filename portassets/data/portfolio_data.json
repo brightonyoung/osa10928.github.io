@@ -1,0 +1,61 @@
+{
+	"websites" : [
+        {
+        	"name" : "Personal Site - Landing Page",
+        	"image" : "../../../src/portassets/images/landing.png",
+        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4", "UI/UX"],
+        	"site" : "osa10928.github.io"
+        },
+
+        {
+        	"name" : "Personal Site - About-Me Page",
+        	"image" : "../../../src/portassets/images/about.png",
+        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4" "UX/UI"],
+        	"site" : "osa10928.github.io/about.html"
+        },
+
+        {
+        	"name" : "Personal Site - Portfolio Page",
+        	"image" : "../../../src/portassets/images/portfolio.png",
+        	"technology" : ["node", "react", "webpack", "jekyll", "sass", "jquery", "bootstrap4" "UX/UI"],
+        	"site" : "osa10928.github.io/portfolio.html"
+        }
+	],
+
+	"codepens" : [
+	    {
+	    	"name" : "FCC Leaderboard",
+	    	"image" : "../../../src/portassets/images/fccleaderboard.png",
+	    	"technology" : ["react", "sass", "ajax", "bootstrap4"],
+	    	"site" : "https://codepen.io/osa10928/pen/wqwQoz"
+	    },
+
+	    {
+	    	"name" : "Github Flavored Markdown",
+	    	"image" : "../../../src/portassets/images/githubmarkdown.png",
+	    	"technology" : ["react", "sass", "bootstrap4"],
+	    	"site" : "https://codepen.io/osa10928/pen/VzZjyY"
+	    },
+
+	    {
+	    	"name" : "Simon Game",
+	    	"image" : "../../../src/portassets/images/simongame.png",
+	    	"technology" : ["jquery", "bootstrap4"],
+	    	"site" : "https://codepen.io/osa10928/pen/awrmRG"
+	    },
+
+	    {
+	    	"name" : "TicTacToe Game",
+	    	"image" : "../../../src/portassets/images/tictac.png",
+	    	"technology" : ["jquery", "bootstrap4"],
+	    	"site" : "https://codepen.io/osa10928/pen/YQdeYY"
+	    },
+
+	    {
+	    	"name" : "Twitch Api",
+	    	"image" : "../../../src/portassets/images/twitch.png",
+	    	"technology" : ["jquery", "bootstrap4", "ajax"],
+	    	"site" : "https://codepen.io/osa10928/pen/bRLjbZ"
+	    },
+	]
+}
