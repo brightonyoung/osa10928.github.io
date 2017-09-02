@@ -1,5 +1,5 @@
 {
-	"websites" : [
+	"webpages" : [
         {
         	"name" : "Personal Site - Landing Page",
         	"image" : "../../../src/portassets/images/landing.png",
@@ -10,14 +10,14 @@
         {
         	"name" : "Personal Site - About-Me Page",
         	"image" : "../../../src/portassets/images/about.png",
-        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4" "UX/UI"],
+        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4", "UX/UI"],
         	"site" : "osa10928.github.io/about.html"
         },
 
         {
         	"name" : "Personal Site - Portfolio Page",
         	"image" : "../../../src/portassets/images/portfolio.png",
-        	"technology" : ["node", "react", "webpack", "jekyll", "sass", "jquery", "bootstrap4" "UX/UI"],
+        	"technology" : ["node", "react", "webpack", "jekyll", "sass", "jquery", "bootstrap4", "UX/UI"],
         	"site" : "osa10928.github.io/portfolio.html"
         }
 	],
@@ -56,6 +56,6 @@
 	    	"image" : "../../../src/portassets/images/twitch.png",
 	    	"technology" : ["jquery", "bootstrap4", "ajax"],
 	    	"site" : "https://codepen.io/osa10928/pen/bRLjbZ"
-	    },
+	    }
 	]
 }
