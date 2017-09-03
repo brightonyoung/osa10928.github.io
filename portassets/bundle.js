@@ -11690,7 +11690,7 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
 /* 103 */
 /***/ (function(module, exports) {
 
-module.exports = {"webpages":[{"name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["jekyll","sass","jquery","bootstrap4","UI/UX"],"site":"osa10928.github.io"},{"name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"osa10928.github.io/about.html"},{"name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["node","react","webpack","jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"osa10928.github.io/portfolio.html"}],"codepens":[{"name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["react","sass","ajax","bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz"},{"name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["react","sass","bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY"},{"name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG"},{"name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY"},{"name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["jquery","bootstrap4","ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ"}]}
+module.exports = {"webpages":[{"id":"landingPage","name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"osa10928.github.io"},{"id":"aboutPage","name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"osa10928.github.io/about.html"},{"id":"portfolioPage","name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["node","react","webpack","jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"osa10928.github.io/portfolio.html"}],"codepens":[{"id":"leaderboard","name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["react","sass","ajax","bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz"},{"id":"githubMarkdown","name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["react","sass","bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY"},{"id":"simonGame","name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG"},{"id":"tictactoe","name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY"},{"id":"twitchApi","name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["jquery","bootstrap4","ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ"}]}
 
 /***/ }),
 /* 104 */
@@ -11725,7 +11725,7 @@ var _main_app = __webpack_require__(232);
 
 var _main_app2 = _interopRequireDefault(_main_app);
 
-var _navbar = __webpack_require__(240);
+var _navbar = __webpack_require__(242);
 
 var _navbar2 = _interopRequireDefault(_navbar);
 
@@ -11763,7 +11763,7 @@ var App = function (_React$Component) {
 	_createClass(App, [{
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement('section', null, _react2.default.createElement('header', null, _react2.default.createElement(_navbar2.default, null)), _react2.default.createElement('main', { className: 'container-fluid' }, _react2.default.createElement(_reactRouterDom.BrowserRouter, { basename: '/portfolio' }, _react2.default.createElement(_main_app2.default, null))));
+			return _react2.default.createElement('section', null, _react2.default.createElement('header', null, _react2.default.createElement(_navbar2.default, null)), _react2.default.createElement('main', null, _react2.default.createElement(_reactRouterDom.BrowserRouter, { basename: '/portfolio' }, _react2.default.createElement(_main_app2.default, null))));
 		}
 	}]);
 
@@ -27020,11 +27020,11 @@ var _webpages_display = __webpack_require__(236);
 
 var _webpages_display2 = _interopRequireDefault(_webpages_display);
 
-var _codepens_title = __webpack_require__(238);
+var _codepens_title = __webpack_require__(240);
 
 var _codepens_title2 = _interopRequireDefault(_codepens_title);
 
-var _codepens_display = __webpack_require__(239);
+var _codepens_display = __webpack_require__(241);
 
 var _codepens_display2 = _interopRequireDefault(_codepens_display);
 
@@ -27146,7 +27146,7 @@ function _interopRequireDefault(obj) {
 }
 
 var WebpagesTitle = function WebpagesTitle() {
-	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Websites"));
+	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Websites"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."));
 };
 
 exports.default = WebpagesTitle;
@@ -27186,6 +27186,14 @@ var _about = __webpack_require__(237);
 
 var _about2 = _interopRequireDefault(_about);
 
+var _landing = __webpack_require__(238);
+
+var _landing2 = _interopRequireDefault(_landing);
+
+var _portfolio = __webpack_require__(239);
+
+var _portfolio2 = _interopRequireDefault(_portfolio);
+
 function _interopRequireDefault(obj) {
 	return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -27211,29 +27219,59 @@ function _inherits(subClass, superClass) {
 var WebsitesDisplay = function (_React$Component) {
 	_inherits(WebsitesDisplay, _React$Component);
 
-	function WebsitesDisplay() {
+	function WebsitesDisplay(props) {
 		_classCallCheck(this, WebsitesDisplay);
 
-		return _possibleConstructorReturn(this, (WebsitesDisplay.__proto__ || Object.getPrototypeOf(WebsitesDisplay)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (WebsitesDisplay.__proto__ || Object.getPrototypeOf(WebsitesDisplay)).call(this, props));
+
+		_this.processTechnologies = _this.processTechnologies.bind(_this);
+		return _this;
 	}
 
 	_createClass(WebsitesDisplay, [{
+		key: 'processTechnologies',
+		value: function processTechnologies(pages) {
+			var techHash = {};
+			var technologies = [];
+			for (var i in pages) {
+				for (var j in pages[i].technology) {
+					if (!techHash[pages[i].technology[j]]) {
+						technologies.push(pages[i].technology[j]);
+						techHash[pages[i].technology[j]] = 1;
+					}
+				}
+			}
+			var techno = technologies.map(function (tech, i) {
+				return _react2.default.createElement('button', { key: i.toString(), className: 'techButtons' }, tech);
+			});
+			return techno;
+		}
+	}, {
 		key: 'render',
 		value: function render() {
-			/*
-   var webpages = json.webpages.map((page, i) => {
-   	return (
-   		<img src={aboutPage} />
-   		
-   		<div className="thumbnail">
-   		  <img src={page.image} key={i.toString()} />
-   		</div>
-   		
-   	)
-   });
-   */
 
-			return _react2.default.createElement('div', { className: 'd-flex justify-content-around align-items-center' }, b);
+			var techButtons = this.processTechnologies(_portfolio_data2.default.webpages);
+
+			var webpages = _portfolio_data2.default.webpages.map(function (page, i) {
+				switch (page.id) {
+					case "aboutPage":
+						var image = _about2.default;
+						break;
+
+					case "landingPage":
+						var image = _landing2.default;
+						break;
+
+					case "portfolioPage":
+						var image = _portfolio2.default;
+						break;
+				}
+
+				return _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', key: i.toString(), alt: page.id }));
+			});
+			console.log(techButtons);
+
+			return _react2.default.createElement('div', { id: 'webpage-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-around align-items-center displayed' }, webpages));
 		}
 	}]);
 
@@ -27250,6 +27288,18 @@ module.exports = "/portassets/images/about.png";
 
 /***/ }),
 /* 238 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/landing.png";
+
+/***/ }),
+/* 239 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/portfolio.png";
+
+/***/ }),
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27274,7 +27324,7 @@ var CodepensTitle = function CodepensTitle() {
 exports.default = CodepensTitle;
 
 /***/ }),
-/* 239 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27348,7 +27398,7 @@ var CodepensDisplay = function (_React$Component) {
 exports.default = CodepensDisplay;
 
 /***/ }),
-/* 240 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27374,23 +27424,23 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Github = __webpack_require__(241);
+var _Github = __webpack_require__(243);
 
 var _Github2 = _interopRequireDefault(_Github);
 
-var _Linkedin = __webpack_require__(242);
+var _Linkedin = __webpack_require__(244);
 
 var _Linkedin2 = _interopRequireDefault(_Linkedin);
 
-var _Twitter = __webpack_require__(243);
+var _Twitter = __webpack_require__(245);
 
 var _Twitter2 = _interopRequireDefault(_Twitter);
 
-var _Facebook = __webpack_require__(244);
+var _Facebook = __webpack_require__(246);
 
 var _Facebook2 = _interopRequireDefault(_Facebook);
 
-var _Instagram = __webpack_require__(245);
+var _Instagram = __webpack_require__(247);
 
 var _Instagram2 = _interopRequireDefault(_Instagram);
 
@@ -27438,31 +27488,31 @@ var Navbar = function (_React$Component) {
 exports.default = Navbar;
 
 /***/ }),
-/* 241 */
+/* 243 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Github.svg";
 
 /***/ }),
-/* 242 */
+/* 244 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Linkedin.svg";
 
 /***/ }),
-/* 243 */
+/* 245 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Twitter.svg";
 
 /***/ }),
-/* 244 */
+/* 246 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Facebook.svg";
 
 /***/ }),
-/* 245 */
+/* 247 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Instagram.svg";

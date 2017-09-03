@@ -28,17 +28,16 @@ html {
 
 body {
     height: 100%;
-	background: rgb(40, 40, 40);
+    background: url('/assets/images/icon-transparent.svg'), rgb(40, 40, 40);
+	background-size: 15% 15%;
+	background-repeat: repeat;
+	background-position: center;
 	color: #C8C8CD;
 	#App {
-	  background: url('/assets/images/icon-transparent.svg');
-	  background-size: 100% 100%;
-	  background-repeat: no-repeat;
-	  background-position: center;
 	  height: 90%;
 	  margin-top: 10%;
 	  main {
-	        width: 85%;
+	        width: 90%;
 	        #opening-title h1 {
 	            font-size: 2rem;
 	        }
@@ -77,6 +76,59 @@ body {
 	                animation-duration: 20s;
 	                animation-iteration-count: infinite;
 	            }
+	        }
+	        heading {
+	            h1 {
+	                font-size: 2rem;
+	            }
+	            p {
+	                font-size: 0.8em;
+	            }
+	        }
+	    }
+	}
+}
+.technologies {
+	button {
+	    cursor: pointer;
+	    font-size: 0.8em;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+        margin: 5% 3% 0 0;
+	    color: #C8C8CD;
+	    background: rgba(50,50,50,1);
+	    background: -webkit-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	    background: -o-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	    background: -moz-linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	    background: linear-gradient(rgba(40,40,40,1), rgba(70,70,70,1));
+	    box-shadow: 2px 2px 1px black;
+	    border-radius: 0.2em;
+	    &:hover {
+	        background: #C8C8CD;
+	        color: black;
+	        -webkit-transition: color 500ms linear;
+	        -ms-transition: color 500ms linear;
+	        transition: color 500ms linear;
+	        -webkit-transition: background 500ms linear;
+	        -ms-transition: background 500ms linear;
+	        transition: background 500ms linear;
+	    }
+	}
+}
+
+.displayed {
+	.thumbnail {
+	    cursor: pointer;
+	    width: 100%;
+	    margin: 10% 0;
+	    font-size: 0.8em;
+	    box-shadow: 6px 5px 4px 4px rgb(25,25,25);
+	    span {
+	        display: block;
+	        background: rgba(50,50,50,1);
+	        padding: 2px 0;
+	        p {
+	            margin-bottom: 0;
 	        }
 	    }
 	}
@@ -119,7 +171,20 @@ body {
 	                    font-size: 2rem !important;
 	                }
 	            }
+	            heading {
+	            h1 {
+	                font-size: 4rem;
+	            }
+	            p {
+	                font-size: 1.6em;
+	            }
 	        }
+	        }
+	    }
+	}
+	.technologies {
+	    button {
+	        font-size: 1.6em;
 	    }
 	}
 }
@@ -136,6 +201,14 @@ body {
 	                    div {
 	                        font-size: 1.5rem !important;
 	                    }
+	                }
+	            }
+	            heading {
+	                h1 {
+	                    font-size: 2em
+	                }
+	                p {
+	                    font-size: 0.8em;
 	                }
 	            }
 	        }
@@ -235,6 +308,12 @@ body {
 	                }
 	            }
 	        }
+	    }
+	}
+	.displayed {
+	    .thumbnail {
+	        width: 65%;
+	        margin: 5% 0;
 	    }
 	}
 }

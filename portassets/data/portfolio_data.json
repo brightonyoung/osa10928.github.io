@@ -1,13 +1,15 @@
 {
 	"webpages" : [
         {
+        	"id" : "landingPage",
         	"name" : "Personal Site - Landing Page",
         	"image" : "../../../src/portassets/images/landing.png",
-        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4", "UI/UX"],
+        	"technology" : ["jekyll", "sass", "jquery", "bootstrap4", "UX/UI"],
         	"site" : "osa10928.github.io"
         },
 
         {
+        	"id" : "aboutPage",
         	"name" : "Personal Site - About-Me Page",
         	"image" : "../../../src/portassets/images/about.png",
         	"technology" : ["jekyll", "sass", "jquery", "bootstrap4", "UX/UI"],
@@ -15,6 +17,7 @@
         },
 
         {
+        	"id" : "portfolioPage",
         	"name" : "Personal Site - Portfolio Page",
         	"image" : "../../../src/portassets/images/portfolio.png",
         	"technology" : ["node", "react", "webpack", "jekyll", "sass", "jquery", "bootstrap4", "UX/UI"],
@@ -24,6 +27,7 @@
 
 	"codepens" : [
 	    {
+	    	"id" : "leaderboard",
 	    	"name" : "FCC Leaderboard",
 	    	"image" : "../../../src/portassets/images/fccleaderboard.png",
 	    	"technology" : ["react", "sass", "ajax", "bootstrap4"],
@@ -31,6 +35,7 @@
 	    },
 
 	    {
+	    	"id" : "githubMarkdown",
 	    	"name" : "Github Flavored Markdown",
 	    	"image" : "../../../src/portassets/images/githubmarkdown.png",
 	    	"technology" : ["react", "sass", "bootstrap4"],
@@ -38,6 +43,7 @@
 	    },
 
 	    {
+	    	"id" : "simonGame",
 	    	"name" : "Simon Game",
 	    	"image" : "../../../src/portassets/images/simongame.png",
 	    	"technology" : ["jquery", "bootstrap4"],
@@ -45,6 +51,7 @@
 	    },
 
 	    {
+	    	"id" : "tictactoe",
 	    	"name" : "TicTacToe Game",
 	    	"image" : "../../../src/portassets/images/tictac.png",
 	    	"technology" : ["jquery", "bootstrap4"],
@@ -52,6 +59,7 @@
 	    },
 
 	    {
+	    	"id" : "twitchApi",
 	    	"name" : "Twitch Api",
 	    	"image" : "../../../src/portassets/images/twitch.png",
 	    	"technology" : ["jquery", "bootstrap4", "ajax"],
