@@ -114,7 +114,25 @@ body {
 	        -ms-transition: background 500ms linear;
 	        transition: background 500ms linear;
 	    }
+	    &:focus {
+	        outline: 0;
+	    }
 	}
+}
+
+.clicked {
+	background: #C8C8CD !important;
+	color: black !important;
+}
+
+.webpage-element {
+	-webkit-transition: max-height 1s;
+	transition: max-height 1s;
+}
+
+.codepens-element {
+    -webkit-transition: max-height 1s;
+	transition: max-height 1s;
 }
 
 .displayed {
@@ -139,7 +157,7 @@ body {
     font-size: 0.8em;
     margin: auto;
     margin-bottom: 5%;
-	-webkit-transition: height 1s;
+	-webkit-transition: max-height 1s;
 	-webkit-transition-delay: 0s;
 	transition: max-height 2s;
 	transition-delay: 0s;
@@ -152,6 +170,7 @@ body {
 
 .remove-element {
 	max-height: 0px !important;
+	overflow: hidden !important;
 }
 
 @keyframes shake1 {

@@ -31584,7 +31584,7 @@ function _interopRequireDefault(obj) {
 }
 
 var WebpagesTitle = function WebpagesTitle() {
-	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Websites"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the webpage)"));
+	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Webpages"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the webpage)"));
 };
 
 exports.default = WebpagesTitle;
@@ -31666,6 +31666,7 @@ var WebsitesDisplay = function (_React$Component) {
 
 		_this.processTechnologies = _this.processTechnologies.bind(_this);
 		_this.toggle = _this.toggle.bind(_this);
+		_this.buttonClick = _this.buttonClick.bind(_this);
 		return _this;
 	}
 
@@ -31686,8 +31687,47 @@ var WebsitesDisplay = function (_React$Component) {
 			}
 		}
 	}, {
+		key: 'buttonClick',
+		value: function buttonClick(buttonId, pages) {
+			var button = document.getElementById(buttonId);
+			var pagesToShow = {};
+
+			button.classList.contains('clicked') ? button.classList.remove('clicked') : button.classList.add('clicked');
+			var buttonsClicked = document.getElementsByClassName('clicked');
+
+			for (var a in pages) {
+				pagesToShow[pages[a].id] = 1;
+			}
+
+			for (var i = 0; i < buttonsClicked.length; i++) {
+				for (var j in pages) {
+					if (!pages[j].technology.includes(buttonsClicked[i].id)) {
+						delete pagesToShow[pages[j].id];
+					}
+				}
+			}
+
+			for (var k in pages) {
+				if (!pagesToShow[pages[k].id]) {
+					var hidePage = document.getElementById(pages[k].id);
+					if (!hidePage.classList.contains('remove-element')) {
+						hidePage.classList.contains('show-element') ? hidePage.classList.remove('show-element') : null;
+						hidePage.classList.add('remove-element');
+					}
+				} else {
+					var showPage = document.getElementById(pages[k].id);
+					if (!showPage.classList.contains('show-element')) {
+						showPage.classList.contains('remove-element') ? showPage.classList.remove('remove-element') : null;
+						showPage.classList.add('show-element');
+					}
+				}
+			}
+		}
+	}, {
 		key: 'processTechnologies',
 		value: function processTechnologies(pages) {
+			var _this2 = this;
+
 			var techHash = {};
 			var technologies = [];
 			for (var i in pages) {
@@ -31699,14 +31739,16 @@ var WebsitesDisplay = function (_React$Component) {
 				}
 			}
 			var techno = technologies.map(function (tech, i) {
-				return _react2.default.createElement('button', { key: i.toString(), className: 'techButtons' }, tech);
+				return _react2.default.createElement('button', { id: tech, key: i.toString(), onClick: function onClick() {
+						_this2.buttonClick(tech, _portfolio_data2.default.webpages);
+					}, className: 'techButtons' }, tech);
 			});
 			return techno;
 		}
 	}, {
 		key: 'render',
 		value: function render() {
-			var _this2 = this;
+			var _this3 = this;
 
 			var techButtons = this.processTechnologies(_portfolio_data2.default.webpages);
 
@@ -31729,9 +31771,9 @@ var WebsitesDisplay = function (_React$Component) {
 						break;
 				}
 
-				return _react2.default.createElement('div', { className: 'webpage-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
-						_this2.toggle(page.id);
-					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id, style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See webpage ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
+				return _react2.default.createElement('div', { id: page.id, className: 'webpage-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
+						_this3.toggle(page.id + "-text");
+					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id + "-text", style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See webpage ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
 			});
 
 			return _react2.default.createElement('div', { id: 'webpage-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, webpages));
@@ -34666,7 +34708,7 @@ function _interopRequireDefault(obj) {
 }
 
 var CodepensTitle = function CodepensTitle() {
-	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"), _react2.default.createElement("p", null, "Here you can check out a few of my codepens. Most of these pens were assignments from ", _react2.default.createElement("a", { href: "https://freecodecamp.com", target: "_blank" }, "FreeCodeCamp"), " and served to introduce me to important Frontend coding concepts such as ajax calls, working in an async environment. These codepens also challenged my knowledge of algorithms and code writing ability (don't sleep on tictactoe)."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the codepen)"));
+	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"), _react2.default.createElement("p", null, "Here you can check out a few of my codepens. Most of these pens were assignments from ", _react2.default.createElement("a", { href: "https://freecodecamp.com", target: "_blank" }, "FreeCodeCamp"), " and served to introduce me to important Frontend coding concepts such as ajax calls, working in an async environment. These codepens also challenged my knowledge of algorithms and code writing ability (don't sleep on tictactoe). You can also check out all my codepens ", _react2.default.createElement("a", { href: "https://codepen.io/osa10928/pens/public/", target: "_blank" }, "here"), "."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the codepen)"));
 };
 
 exports.default = CodepensTitle;
@@ -34754,6 +34796,7 @@ var CodepensDisplay = function (_React$Component) {
 
 		_this.processTechnologies = _this.processTechnologies.bind(_this);
 		_this.toggle = _this.toggle.bind(_this);
+		_this.buttonClick = _this.buttonClick.bind(_this);
 		return _this;
 	}
 
@@ -34774,8 +34817,47 @@ var CodepensDisplay = function (_React$Component) {
 			}
 		}
 	}, {
+		key: 'buttonClick',
+		value: function buttonClick(buttonId, pages) {
+			var button = document.getElementById(buttonId);
+			var pagesToShow = {};
+
+			button.classList.contains('clicked') ? button.classList.remove('clicked') : button.classList.add('clicked');
+			var buttonsClicked = document.getElementsByClassName('clicked');
+
+			for (var a in pages) {
+				pagesToShow[pages[a].id] = 1;
+			}
+
+			for (var i = 0; i < buttonsClicked.length; i++) {
+				for (var j in pages) {
+					if (!pages[j].technology.includes(buttonsClicked[i].id)) {
+						delete pagesToShow[pages[j].id];
+					}
+				}
+			}
+
+			for (var k in pages) {
+				if (!pagesToShow[pages[k].id]) {
+					var hidePage = document.getElementById(pages[k].id);
+					if (!hidePage.classList.contains('remove-element')) {
+						hidePage.classList.contains('show-element') ? hidePage.classList.remove('show-element') : null;
+						hidePage.classList.add('remove-element');
+					}
+				} else {
+					var showPage = document.getElementById(pages[k].id);
+					if (!showPage.classList.contains('show-element')) {
+						showPage.classList.contains('remove-element') ? showPage.classList.remove('remove-element') : null;
+						showPage.classList.add('show-element');
+					}
+				}
+			}
+		}
+	}, {
 		key: 'processTechnologies',
 		value: function processTechnologies(pages) {
+			var _this2 = this;
+
 			var techHash = {};
 			var technologies = [];
 			for (var i in pages) {
@@ -34787,14 +34869,16 @@ var CodepensDisplay = function (_React$Component) {
 				}
 			}
 			var techno = technologies.map(function (tech, i) {
-				return _react2.default.createElement('button', { key: i.toString(), className: 'techButtons' }, tech);
+				return _react2.default.createElement('button', { id: tech, key: i.toString(), onClick: function onClick() {
+						_this2.buttonClick(tech, _portfolio_data2.default.codepens);
+					}, className: 'techButtons' }, tech);
 			});
 			return techno;
 		}
 	}, {
 		key: 'render',
 		value: function render() {
-			var _this2 = this;
+			var _this3 = this;
 
 			var techButtons = this.processTechnologies(_portfolio_data2.default.codepens);
 
@@ -34825,9 +34909,9 @@ var CodepensDisplay = function (_React$Component) {
 						break;
 				}
 
-				return _react2.default.createElement('div', { className: 'codepens-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
-						_this2.toggle(page.id);
-					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id, style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See codepen ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
+				return _react2.default.createElement('div', { id: page.id, className: 'codepens-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
+						_this3.toggle(page.id + "-text");
+					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id + "-text", style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See codepen ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
 			});
 
 			return _react2.default.createElement('div', { id: 'codepens-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, codepens));
