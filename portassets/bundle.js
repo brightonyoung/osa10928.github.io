@@ -16138,7 +16138,7 @@ var nameShape = exports.nameShape = _propTypes2.default.oneOfType([_propTypes2.d
 /* 108 */
 /***/ (function(module, exports) {
 
-module.exports = {"webpages":[{"id":"landingPage","name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"https://osa10928.github.io","description":"This is the landing page of my personal site. It was my initiation into jekyll and Github Pages and was built using JQuery and Bootstrap4 amongst other things.","href":"#landingPage"},{"id":"aboutPage","name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"https://osa10928.github.io/about.html","description":"This page serves to help people learn a litlte bit more about me (friends and perspective employers alike). It also helped me further explore the functionality of ghpages and jekyll.","href":"#aboutPage"},{"id":"portfolioPage","name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["node","react","webpack","jekyll","sass","jquery","bootstrap4","UX/UI"],"site":"https://osa10928.github.io/portfolio.html","description":"This webpage not only serves to feature my work, but is a work in and of itself. It introduced me to npm as a package manager, webpack as a module bundler, and showed me how to use React with ghpages/jekyll. It really is my pride and joy. I hope your enjoying it!","href":"#portfolioPage"}],"codepens":[{"id":"leaderboard","name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["react","sass","ajax","bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz","description":"This codepen features a FreeCodeCamp Leaderboard. It was my initial step into making ajax calls with React. It taught me several 'gotcha's', such as the fact that setState function may or may not be async.","href":"#leaderboard"},{"id":"githubMarkdown","name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["react","sass","bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY","description":"This codepen was my first introduction into React. Features github flavored markdown. Pretty straight forward.","href":"#githubMarkdown"},{"id":"simonGame","name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG","description":"This was my graduation project from Frontend development (as far as FreeCodeCamp goes any way. It was fun designing, but I'm much of a simon says kind of guy. But feel free to test it out. Try win by getting to 20!","href":"#simonGame"},{"id":"tictactoe","name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["jquery","bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY","description":"A simple game of tictactoe against an AI that refuses to lose. Like really it can't lose. This was really fun to build as it introduced me to the minimax algorithm (which made me feel much smarter than I really am). Test it out!","href":"#tictactoe"},{"id":"twitchApi","name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["jquery","bootstrap4","ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ","description":"A twitch api which introduced me to ajax calls oh so long ago. Seems like forever since I built this, but I still like the design quality. Don't you?","href":"#twitchApi"}]}
+module.exports = {"webpages":[{"id":"landingPage","name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io","description":"This is the landing page of my personal site. It served as my initiation into jekyll and Github Pages and was built using JQuery and Bootstrap4 amongst other things.","href":"#landingPage"},{"id":"aboutPage","name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io/about.html","description":"This page serves to help people learn a litlte bit more about me (from friends to stranger and perspective employers alike). It also helped me further explore the functionality of ghpages and Jekyll.","href":"#aboutPage"},{"id":"portfolioPage","name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["Node","React","Webpack","Jekyll","Sass","JQuery","Bootstrap4","ReactStrap","UX/UI"],"site":"https://osa10928.github.io/portfolio.html","description":"This webpage not only serves to feature my work in Frontend development, but is a work in and of itself. It introduced me to npm as a package manager, Webpack as a module bundler, and showed me how to use React with ghpages/jekyll. It really is my pride and joy. I hope you're enjoying it!","href":"#portfolioPage"}],"codepens":[{"id":"leaderboard","name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["React","Sass","Ajax","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz","description":"This codepen features a FreeCodeCamp Leaderboard. It was my initial step into making ajax calls with React. It taught me several 'gotcha's', such as the fact that setState function may or may not be async.","href":"#leaderboard"},{"id":"githubMarkdown","name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["React","Sass","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY","description":"This codepen was my first introduction into React. It features github flavored markdown. Pretty straight forward.","href":"#githubMarkdown"},{"id":"simonGame","name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG","description":"This was my graduation project from Frontend development (as far as FreeCodeCamp goes any way. It was fun designing, but I'm much of a simon says kind of guy. But feel free to test it out. Try to win by getting to 20!","href":"#simonGame"},{"id":"tictactoe","name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY","description":"A simple game of tictactoe against an AI that refuses to lose. Like really it can't lose. This was really fun to build as it introduced me to the minimax algorithm (which made me feel much smarter than I really am). Test it out!","href":"#tictactoe"},{"id":"twitchApi","name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["JQuery","Bootstrap4","Ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ","description":"A twitch api which introduced me to ajax calls oh so long ago. Seems like forever since I built this, but I still like the design quality. Don't you?","href":"#twitchApi"}]}
 
 /***/ }),
 /* 109 */
@@ -16173,7 +16173,7 @@ var _main_app = __webpack_require__(236);
 
 var _main_app2 = _interopRequireDefault(_main_app);
 
-var _mynav = __webpack_require__(261);
+var _mynav = __webpack_require__(266);
 
 var _mynav2 = _interopRequireDefault(_mynav);
 
@@ -31584,7 +31584,7 @@ function _interopRequireDefault(obj) {
 }
 
 var WebpagesTitle = function WebpagesTitle() {
-	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Websites"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."));
+	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Websites"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the webpage)"));
 };
 
 exports.default = WebpagesTitle;
@@ -31666,9 +31666,6 @@ var WebsitesDisplay = function (_React$Component) {
 
 		_this.processTechnologies = _this.processTechnologies.bind(_this);
 		_this.toggle = _this.toggle.bind(_this);
-		_this.state = {
-			isOpen: false
-		};
 		return _this;
 	}
 
@@ -31734,7 +31731,7 @@ var WebsitesDisplay = function (_React$Component) {
 
 				return _react2.default.createElement('div', { className: 'webpage-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
 						_this2.toggle(page.id);
-					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id, style: hidden }, page.description));
+					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id, style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See webpage ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
 			});
 
 			return _react2.default.createElement('div', { id: 'webpage-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, webpages));
@@ -34669,7 +34666,7 @@ function _interopRequireDefault(obj) {
 }
 
 var CodepensTitle = function CodepensTitle() {
-	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"));
+	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"), _react2.default.createElement("p", null, "Here you can check out a few of my codepens. Most of these pens were assignments from ", _react2.default.createElement("a", { href: "https://freecodecamp.com", target: "_blank" }, "FreeCodeCamp"), " and served to introduce me to important Frontend coding concepts such as ajax calls, working in an async environment. These codepens also challenged my knowledge of algorithms and code writing ability (don't sleep on tictactoe)."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the codepen)"));
 };
 
 exports.default = CodepensTitle;
@@ -34705,6 +34702,26 @@ var _portfolio_data = __webpack_require__(108);
 
 var _portfolio_data2 = _interopRequireDefault(_portfolio_data);
 
+var _fccleaderboard = __webpack_require__(261);
+
+var _fccleaderboard2 = _interopRequireDefault(_fccleaderboard);
+
+var _tictac = __webpack_require__(262);
+
+var _tictac2 = _interopRequireDefault(_tictac);
+
+var _githubmarkdown = __webpack_require__(263);
+
+var _githubmarkdown2 = _interopRequireDefault(_githubmarkdown);
+
+var _twitch = __webpack_require__(264);
+
+var _twitch2 = _interopRequireDefault(_twitch);
+
+var _simongame = __webpack_require__(265);
+
+var _simongame2 = _interopRequireDefault(_simongame);
+
 function _interopRequireDefault(obj) {
 	return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -34730,16 +34747,90 @@ function _inherits(subClass, superClass) {
 var CodepensDisplay = function (_React$Component) {
 	_inherits(CodepensDisplay, _React$Component);
 
-	function CodepensDisplay() {
+	function CodepensDisplay(props) {
 		_classCallCheck(this, CodepensDisplay);
 
-		return _possibleConstructorReturn(this, (CodepensDisplay.__proto__ || Object.getPrototypeOf(CodepensDisplay)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (CodepensDisplay.__proto__ || Object.getPrototypeOf(CodepensDisplay)).call(this, props));
+
+		_this.processTechnologies = _this.processTechnologies.bind(_this);
+		_this.toggle = _this.toggle.bind(_this);
+		return _this;
 	}
 
 	_createClass(CodepensDisplay, [{
+		key: 'toggle',
+		value: function toggle(elementId) {
+			var element = document.getElementById(elementId);
+			if (element.classList.contains('collapsed')) {
+				if (element.classList.contains('remove-element')) {
+					element.classList.remove('remove-element');
+				}
+				element.classList.remove('collapsed');
+				element.classList.add('show-element');
+			} else {
+				element.classList.remove('show-element');
+				element.classList.add('remove-element');
+				element.classList.add('collapsed');
+			}
+		}
+	}, {
+		key: 'processTechnologies',
+		value: function processTechnologies(pages) {
+			var techHash = {};
+			var technologies = [];
+			for (var i in pages) {
+				for (var j in pages[i].technology) {
+					if (!techHash[pages[i].technology[j]]) {
+						technologies.push(pages[i].technology[j]);
+						techHash[pages[i].technology[j]] = 1;
+					}
+				}
+			}
+			var techno = technologies.map(function (tech, i) {
+				return _react2.default.createElement('button', { key: i.toString(), className: 'techButtons' }, tech);
+			});
+			return techno;
+		}
+	}, {
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement('div', { className: 'd-flex justify-content-around align-items-center' });
+			var _this2 = this;
+
+			var techButtons = this.processTechnologies(_portfolio_data2.default.codepens);
+
+			var codepens = _portfolio_data2.default.codepens.map(function (page, i) {
+				var hidden = {
+					maxHeight: "0px",
+					overflow: "hidden"
+				};
+				switch (page.id) {
+					case "leaderboard":
+						var image = _fccleaderboard2.default;
+						break;
+
+					case "githubMarkdown":
+						var image = _githubmarkdown2.default;
+						break;
+
+					case "simonGame":
+						var image = _simongame2.default;
+						break;
+
+					case "tictactoe":
+						var image = _tictac2.default;
+						break;
+
+					case "twitchApi":
+						var image = _twitch2.default;
+						break;
+				}
+
+				return _react2.default.createElement('div', { className: 'codepens-element', key: i.toString() }, _react2.default.createElement('a', { onClick: function onClick() {
+						_this2.toggle(page.id);
+					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id, style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See codepen ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
+			});
+
+			return _react2.default.createElement('div', { id: 'codepens-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, codepens));
 		}
 	}]);
 
@@ -34750,6 +34841,36 @@ exports.default = CodepensDisplay;
 
 /***/ }),
 /* 261 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/fccleaderboard.png";
+
+/***/ }),
+/* 262 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/tictac.png";
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/githubmarkdown.png";
+
+/***/ }),
+/* 264 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/twitch.png";
+
+/***/ }),
+/* 265 */
+/***/ (function(module, exports) {
+
+module.exports = "/portassets/images/simongame.png";
+
+/***/ }),
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34775,23 +34896,23 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Github = __webpack_require__(262);
+var _Github = __webpack_require__(267);
 
 var _Github2 = _interopRequireDefault(_Github);
 
-var _Linkedin = __webpack_require__(263);
+var _Linkedin = __webpack_require__(268);
 
 var _Linkedin2 = _interopRequireDefault(_Linkedin);
 
-var _Twitter = __webpack_require__(264);
+var _Twitter = __webpack_require__(269);
 
 var _Twitter2 = _interopRequireDefault(_Twitter);
 
-var _Facebook = __webpack_require__(265);
+var _Facebook = __webpack_require__(270);
 
 var _Facebook2 = _interopRequireDefault(_Facebook);
 
-var _Instagram = __webpack_require__(266);
+var _Instagram = __webpack_require__(271);
 
 var _Instagram2 = _interopRequireDefault(_Instagram);
 
@@ -34863,31 +34984,31 @@ var MyNav = function (_React$Component) {
 exports.default = MyNav;
 
 /***/ }),
-/* 262 */
+/* 267 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Github.svg";
 
 /***/ }),
-/* 263 */
+/* 268 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Linkedin.svg";
 
 /***/ }),
-/* 264 */
+/* 269 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Twitter.svg";
 
 /***/ }),
-/* 265 */
+/* 270 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Facebook.svg";
 
 /***/ }),
-/* 266 */
+/* 271 */
 /***/ (function(module, exports) {
 
 module.exports = "/portassets/images/Instagram.svg";

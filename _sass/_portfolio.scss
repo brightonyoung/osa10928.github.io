@@ -136,10 +136,14 @@ body {
 }
 
 .more-info {
+    font-size: 0.8em;
     margin: auto;
     margin-bottom: 5%;
 	-webkit-transition: height 1s;
+	-webkit-transition-delay: 0s;
 	transition: max-height 2s;
+	transition-delay: 0s;
+
 }
 
 .show-element {
@@ -202,6 +206,9 @@ body {
 	    button {
 	        font-size: 1.6em;
 	    }
+	}
+	.more-info {
+	    font-size: 1.2em;
 	}
 }
 
