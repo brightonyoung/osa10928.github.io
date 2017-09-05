@@ -38,6 +38,7 @@ body {
 	  margin-top: 10%;
 	  main {
 	        width: 90%;
+	        margin: auto;
 	        #opening-title h1 {
 	            font-size: 2rem;
 	        }
@@ -120,7 +121,7 @@ body {
 	.thumbnail {
 	    cursor: pointer;
 	    width: 100%;
-	    margin: 10% 0;
+	    margin: 10% auto;
 	    font-size: 0.8em;
 	    box-shadow: 6px 5px 4px 4px rgb(25,25,25);
 	    span {
@@ -132,6 +133,21 @@ body {
 	        }
 	    }
 	}
+}
+
+.more-info {
+    margin: auto;
+    margin-bottom: 5%;
+	-webkit-transition: height 1s;
+	transition: max-height 2s;
+}
+
+.show-element {
+	max-height: 500px !important;
+}
+
+.remove-element {
+	max-height: 0px !important;
 }
 
 @keyframes shake1 {
@@ -313,7 +329,10 @@ body {
 	.displayed {
 	    .thumbnail {
 	        width: 65%;
-	        margin: 5% 0;
+	        margin: 5% auto;
 	    }
+	}
+	.more-info {
+	    width: 65%;
 	}
 }
