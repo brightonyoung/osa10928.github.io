@@ -24,7 +24,7 @@
         	"id" : "portfolioPage",
         	"name" : "Personal Site - Portfolio Page",
         	"image" : "../../../src/portassets/images/portfolio.png",
-        	"technology" : ["Node", "React", "Webpack", "Jekyll", "Sass", "JQuery", "Bootstrap4", "ReactStrap", "UX/UI"],
+        	"technology" : ["Node", "React", "Webpack", "Jekyll", "Sass", "Bootstrap4", "ReactStrap", "UX/UI"],
         	"site" : "https://osa10928.github.io/portfolio.html",
         	"description" : "This webpage not only serves to feature my work in Frontend development, but is a work in and of itself. It introduced me to npm as a package manager, Webpack as a module bundler, and showed me how to use React with ghpages/jekyll. It really is my pride and joy. I hope you're enjoying it!",
         	"href" : "#portfolioPage"

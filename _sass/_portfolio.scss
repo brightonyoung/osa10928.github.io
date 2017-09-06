@@ -34,7 +34,6 @@ body {
 	background-position: center;
 	color: #C8C8CD;
 	#App {
-	  height: 90%;
 	  margin-top: 10%;
 	  main {
 	        width: 90%;
@@ -126,11 +125,13 @@ body {
 }
 
 .webpage-element {
+    max-height: 500px;
 	-webkit-transition: max-height 1s;
 	transition: max-height 1s;
 }
 
 .codepens-element {
+    max-height: 500px;
     -webkit-transition: max-height 1s;
 	transition: max-height 1s;
 }
@@ -154,23 +155,38 @@ body {
 }
 
 .more-info {
+    max-height: 0;
     font-size: 0.8em;
     margin: auto;
     margin-bottom: 5%;
-	-webkit-transition: max-height 1s;
+	-webkit-transition: max-height 2s;
 	-webkit-transition-delay: 0s;
 	transition: max-height 2s;
 	transition-delay: 0s;
 
 }
 
+#App {
+    max-height: 1000px;
+	-webkit-transition: max-height 0.5s;
+	-webkit-transition-delay: 0s;
+	transition: max-height 0.5s;
+	transition-delay: 0s;
+}
+
 .show-element {
-	max-height: 500px !important;
+	max-height: 1000px !important;
 }
 
 .remove-element {
 	max-height: 0px !important;
 	overflow: hidden !important;
+}
+
+#route-buttons {
+	max-height: 0;
+	max-width: 0;
+	overflow: hidden;
 }
 
 @keyframes shake1 {

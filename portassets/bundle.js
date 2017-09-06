@@ -16138,7 +16138,7 @@ var nameShape = exports.nameShape = _propTypes2.default.oneOfType([_propTypes2.d
 /* 108 */
 /***/ (function(module, exports) {
 
-module.exports = {"webpages":[{"id":"landingPage","name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io","description":"This is the landing page of my personal site. It served as my initiation into jekyll and Github Pages and was built using JQuery and Bootstrap4 amongst other things.","href":"#landingPage"},{"id":"aboutPage","name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io/about.html","description":"This page serves to help people learn a litlte bit more about me (from friends to stranger and perspective employers alike). It also helped me further explore the functionality of ghpages and Jekyll.","href":"#aboutPage"},{"id":"portfolioPage","name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["Node","React","Webpack","Jekyll","Sass","JQuery","Bootstrap4","ReactStrap","UX/UI"],"site":"https://osa10928.github.io/portfolio.html","description":"This webpage not only serves to feature my work in Frontend development, but is a work in and of itself. It introduced me to npm as a package manager, Webpack as a module bundler, and showed me how to use React with ghpages/jekyll. It really is my pride and joy. I hope you're enjoying it!","href":"#portfolioPage"}],"codepens":[{"id":"leaderboard","name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["React","Sass","Ajax","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz","description":"This codepen features a FreeCodeCamp Leaderboard. It was my initial step into making ajax calls with React. It taught me several 'gotcha's', such as the fact that setState function may or may not be async.","href":"#leaderboard"},{"id":"githubMarkdown","name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["React","Sass","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY","description":"This codepen was my first introduction into React. It features github flavored markdown. Pretty straight forward.","href":"#githubMarkdown"},{"id":"simonGame","name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG","description":"This was my graduation project from Frontend development (as far as FreeCodeCamp goes any way. It was fun designing, but I'm much of a simon says kind of guy. But feel free to test it out. Try to win by getting to 20!","href":"#simonGame"},{"id":"tictactoe","name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY","description":"A simple game of tictactoe against an AI that refuses to lose. Like really it can't lose. This was really fun to build as it introduced me to the minimax algorithm (which made me feel much smarter than I really am). Test it out!","href":"#tictactoe"},{"id":"twitchApi","name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["JQuery","Bootstrap4","Ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ","description":"A twitch api which introduced me to ajax calls oh so long ago. Seems like forever since I built this, but I still like the design quality. Don't you?","href":"#twitchApi"}]}
+module.exports = {"webpages":[{"id":"landingPage","name":"Personal Site - Landing Page","image":"../../../src/portassets/images/landing.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io","description":"This is the landing page of my personal site. It served as my initiation into jekyll and Github Pages and was built using JQuery and Bootstrap4 amongst other things.","href":"#landingPage"},{"id":"aboutPage","name":"Personal Site - About-Me Page","image":"../../../src/portassets/images/about.png","technology":["Jekyll","Sass","JQuery","Bootstrap4","UX/UI"],"site":"https://osa10928.github.io/about.html","description":"This page serves to help people learn a litlte bit more about me (from friends to stranger and perspective employers alike). It also helped me further explore the functionality of ghpages and Jekyll.","href":"#aboutPage"},{"id":"portfolioPage","name":"Personal Site - Portfolio Page","image":"../../../src/portassets/images/portfolio.png","technology":["Node","React","Webpack","Jekyll","Sass","Bootstrap4","ReactStrap","UX/UI"],"site":"https://osa10928.github.io/portfolio.html","description":"This webpage not only serves to feature my work in Frontend development, but is a work in and of itself. It introduced me to npm as a package manager, Webpack as a module bundler, and showed me how to use React with ghpages/jekyll. It really is my pride and joy. I hope you're enjoying it!","href":"#portfolioPage"}],"codepens":[{"id":"leaderboard","name":"FCC Leaderboard","image":"../../../src/portassets/images/fccleaderboard.png","technology":["React","Sass","Ajax","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/wqwQoz","description":"This codepen features a FreeCodeCamp Leaderboard. It was my initial step into making ajax calls with React. It taught me several 'gotcha's', such as the fact that setState function may or may not be async.","href":"#leaderboard"},{"id":"githubMarkdown","name":"Github Flavored Markdown","image":"../../../src/portassets/images/githubmarkdown.png","technology":["React","Sass","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/VzZjyY","description":"This codepen was my first introduction into React. It features github flavored markdown. Pretty straight forward.","href":"#githubMarkdown"},{"id":"simonGame","name":"Simon Game","image":"../../../src/portassets/images/simongame.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/awrmRG","description":"This was my graduation project from Frontend development (as far as FreeCodeCamp goes any way. It was fun designing, but I'm much of a simon says kind of guy. But feel free to test it out. Try to win by getting to 20!","href":"#simonGame"},{"id":"tictactoe","name":"TicTacToe Game","image":"../../../src/portassets/images/tictac.png","technology":["JQuery","Bootstrap4"],"site":"https://codepen.io/osa10928/pen/YQdeYY","description":"A simple game of tictactoe against an AI that refuses to lose. Like really it can't lose. This was really fun to build as it introduced me to the minimax algorithm (which made me feel much smarter than I really am). Test it out!","href":"#tictactoe"},{"id":"twitchApi","name":"Twitch Api","image":"../../../src/portassets/images/twitch.png","technology":["JQuery","Bootstrap4","Ajax"],"site":"https://codepen.io/osa10928/pen/bRLjbZ","description":"A twitch api which introduced me to ajax calls oh so long ago. Seems like forever since I built this, but I still like the design quality. Don't you?","href":"#twitchApi"}]}
 
 /***/ }),
 /* 109 */
@@ -31426,6 +31426,16 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+var _extends = Object.assign || function (target) {
+	for (var i = 1; i < arguments.length; i++) {
+		var source = arguments[i];for (var key in source) {
+			if (Object.prototype.hasOwnProperty.call(source, key)) {
+				target[key] = source[key];
+			}
+		}
+	}return target;
+};
+
 var _createClass = function () {
 	function defineProperties(target, props) {
 		for (var i = 0; i < props.length; i++) {
@@ -31494,16 +31504,113 @@ function _inherits(subClass, superClass) {
 var MainApp = function (_React$Component) {
 	_inherits(MainApp, _React$Component);
 
-	function MainApp() {
+	function MainApp(props) {
 		_classCallCheck(this, MainApp);
 
-		return _possibleConstructorReturn(this, (MainApp.__proto__ || Object.getPrototypeOf(MainApp)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (MainApp.__proto__ || Object.getPrototypeOf(MainApp)).call(this, props));
+
+		_this.handleClick = _this.handleClick.bind(_this);
+		_this.transition = _this.transition.bind(_this);
+		_this.transitionEndEventName = _this.transitionEndEventName.bind(_this);
+		_this.removeEvent = _this.removeEvent.bind(_this);
+		return _this;
 	}
 
 	_createClass(MainApp, [{
+		key: 'transitionEndEventName',
+		value: function transitionEndEventName() {
+			var el = document.createElement('div'); //what the hack is bootstrap
+
+			var transEndEventNames = {
+				WebkitTransition: 'webkitTransitionEnd',
+				MozTransition: 'transitionend',
+				OTransition: 'oTransitionEnd otransitionend',
+				transition: 'transitionend'
+			};
+
+			for (var name in transEndEventNames) {
+				if (el.style[name] !== undefined) {
+					return transEndEventNames[name];
+				}
+			}
+			return false; // explicit for ie8 (  ._.)
+		}
+	}, {
+		key: 'handleClick',
+		value: function handleClick(destination) {
+			console.log(destination);
+			switch (destination) {
+				case 'webpages-button':
+					this.transition('webpages-route');
+					break;
+
+				case 'codepens-button':
+					this.transition('codepens-route');
+					break;
+			}
+		}
+	}, {
+		key: 'transition',
+		value: function transition(route) {
+			var _this2 = this;
+
+			var app = document.getElementById('App');
+			var transitionEnd = this.transitionEndEventName();
+			app.addEventListener(transitionEnd, function () {
+				_this2.removeEvent(route);
+			}, false);
+			app.classList.contains('show-element') ? app.classList.remove('show-element') : null;
+			app.classList.add('remove-element');
+		}
+	}, {
+		key: 'removeEvent',
+		value: function removeEvent(route) {
+			var _this3 = this;
+
+			console.log('why');
+			var app = document.getElementById('App');
+			var transitionEnd = this.transitionEndEventName();
+			app.removeEventListener(transitionEnd, function () {
+				_this3.removeEvent(route);
+			}, false);
+			setTimeout(function () {
+				document.getElementById(route).click();
+			}, 500);
+		}
+
+		/*
+  	componentWillUpdate() {
+  		var app = document.getElementById('App')
+  		app.classList.contains('show-element') ? app.classList.remove('show-element') : null
+  		app.classList.add('remove-element')
+  		console.log('what')
+  		//while (window.getComputedStyle(app)['max-height'] != '0px') {
+  			//console.log('shutup')
+  			//console.log(window.getComputedStyle(app)['max-height'])
+  		//}
+  		
+  		console.log(window.getComputedStyle(app)['max-height'])
+  	}
+  	
+  */
+
+	}, {
+		key: 'componentDidUpdate',
+		value: function componentDidUpdate() {
+			var app = document.getElementById('App');
+			if (window.getComputedStyle(app)['max-height'] == '0px') {
+				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
+				app.classList.add('show-element');
+			}
+		}
+	}, {
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default })), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
+			var _this4 = this;
+
+			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('div', { id: 'route-buttons' }, _react2.default.createElement(_reactRouterDom.Link, { to: '/webpages' }, _react2.default.createElement('button', { id: 'webpages-route' })), _react2.default.createElement(_reactRouterDom.Link, { to: '/codepens' }, _react2.default.createElement('button', { id: 'codepens-route' }))), _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default })), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render(props) {
+					return _react2.default.createElement(_opening_display2.default, _extends({ onClick: _this4.handleClick }, props));
+				} }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
 		}
 	}]);
 
@@ -31544,9 +31651,21 @@ exports.default = OpeningTitle;
 "use strict";
 
 
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+
+var _createClass = function () {
+	function defineProperties(target, props) {
+		for (var i = 0; i < props.length; i++) {
+			var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+		}
+	}return function (Constructor, protoProps, staticProps) {
+		if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+	};
+}();
 
 var _react = __webpack_require__(4);
 
@@ -31558,9 +31677,51 @@ function _interopRequireDefault(obj) {
 	return obj && obj.__esModule ? obj : { default: obj };
 }
 
-var OpeningDisplay = function OpeningDisplay() {
-	return _react2.default.createElement('div', { id: 'opening-display' }, _react2.default.createElement('div', { id: 'options' }, _react2.default.createElement(_reactRouterDom.Link, { to: '/webpages' }, _react2.default.createElement('a', { href: '###', className: 'row', id: 'webpages-option' }, _react2.default.createElement('div', { className: 'option col text-center btn-lg' }, 'Webpages'))), _react2.default.createElement(_reactRouterDom.Link, { to: '/codepens' }, _react2.default.createElement('a', { href: '#', className: 'row', id: 'codepens-option' }, _react2.default.createElement('div', { className: 'option col text-center btn-lg' }, 'Codepens')))));
-};
+function _classCallCheck(instance, Constructor) {
+	if (!(instance instanceof Constructor)) {
+		throw new TypeError("Cannot call a class as a function");
+	}
+}
+
+function _possibleConstructorReturn(self, call) {
+	if (!self) {
+		throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+	}return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+	if (typeof superClass !== "function" && superClass !== null) {
+		throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
+	}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+
+var OpeningDisplay = function (_React$Component) {
+	_inherits(OpeningDisplay, _React$Component);
+
+	function OpeningDisplay(props) {
+		_classCallCheck(this, OpeningDisplay);
+
+		var _this = _possibleConstructorReturn(this, (OpeningDisplay.__proto__ || Object.getPrototypeOf(OpeningDisplay)).call(this, props));
+
+		_this.onClickHandler = _this.onClickHandler.bind(_this);
+		return _this;
+	}
+
+	_createClass(OpeningDisplay, [{
+		key: 'onClickHandler',
+		value: function onClickHandler(e) {
+			this.props.onClick(e.target.id);
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			console.log(this.props);
+			return _react2.default.createElement('div', { id: 'opening-display' }, _react2.default.createElement('div', { id: 'options' }, _react2.default.createElement('a', { href: '###', onClick: this.onClickHandler, className: 'row', id: 'webpages-option' }, _react2.default.createElement('div', { id: 'webpages-button', className: 'option col text-center btn-lg' }, 'Webpages')), _react2.default.createElement('a', { href: '#', onClick: this.onClickHandler, className: 'row', id: 'codepens-option' }, _react2.default.createElement('div', { id: 'codepens-button', className: 'option col text-center btn-lg' }, 'Codepens'))));
+		}
+	}]);
+
+	return OpeningDisplay;
+}(_react2.default.Component);
 
 exports.default = OpeningDisplay;
 
@@ -35058,7 +35219,7 @@ var MyNav = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(_reactstrap.Navbar, { className: 'fixed-top', color: 'inverse', inverse: true, toggleable: true }, _react2.default.createElement('button', { id: 'navtoggle', className: 'navbar-toggler navbar-toggler-right collapsed', type: 'button', 'data-toggle': 'collapse', 'data-target': '#navbarNav', 'aria-controls': 'navbarNav', 'aria-expanded': 'false', 'aria-label': 'Toggle navigation', onClick: this.toggle }, _react2.default.createElement('span', null), _react2.default.createElement('span', null), _react2.default.createElement('span', null)), _react2.default.createElement(_reactstrap.NavbarBrand, { id: 'navbrand', href: 'https://osa10928.github' }, 'Stephen Agwu'), _react2.default.createElement(_reactstrap.Collapse, { isOpen: this.state.isOpen, navbar: true }, _react2.default.createElement(_reactstrap.Nav, { navbar: true, className: 'text-center' }, _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement(_reactstrap.NavLink, { href: 'https://osa10928.github.io/about' }, 'About')), _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement(_reactstrap.NavLink, { href: 'https://osa10928.github.io/portfolio' }, 'Portfolio')), _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement('div', { id: 'social-media', className: 'conatainer-fluid self-center' }, _react2.default.createElement('div', { className: 'd-flex flex-nowrap justify-content-center' }, _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://github.com/osa10928', target: '_blank' }, _react2.default.createElement('img', { src: _Github2.default, alt: 'Github icon', title: 'Gitgub', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.linkedin.com/in/stephen-agwu/', target: '_blank' }, _react2.default.createElement('img', { src: _Linkedin2.default, alt: 'Linkedin icon', title: 'Linkedin', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://twitter.com/King_DREAMER', target: '_blank' }, _react2.default.createElement('img', { src: _Twitter2.default, alt: 'Twitter icon', title: 'Twitter', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.facebook.com/stephen.agwu', target: '_blank' }, _react2.default.createElement('img', { src: _Facebook2.default, alt: 'Facebook icon', title: 'Facebook', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.instagram.com/osa10928/', target: '_blank' }, _react2.default.createElement('img', { src: _Instagram2.default, alt: 'Instagram icon', title: 'Instagram', className: 'img-fluid' })))))))));
+      return _react2.default.createElement(_reactstrap.Navbar, { className: 'fixed-top', color: 'inverse', inverse: true, toggleable: true }, _react2.default.createElement('button', { id: 'navtoggle', className: 'navbar-toggler navbar-toggler-right collapsed', type: 'button', 'data-toggle': 'collapse', 'data-target': '#navbarNav', 'aria-controls': 'navbarNav', 'aria-expanded': 'false', 'aria-label': 'Toggle navigation', onClick: this.toggle }, _react2.default.createElement('span', null), _react2.default.createElement('span', null), _react2.default.createElement('span', null)), _react2.default.createElement(_reactstrap.NavbarBrand, { id: 'navbrand', href: 'https://osa10928.github' }, 'Stephen Agwu'), _react2.default.createElement(_reactstrap.Collapse, { isOpen: this.state.isOpen, navbar: true }, _react2.default.createElement(_reactstrap.Nav, { navbar: true, className: 'text-center' }, _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement(_reactstrap.NavLink, { href: 'https://osa10928.github.io/about' }, 'About')), _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement(_reactstrap.NavLink, { href: 'https://osa10928.github.io/portfolio' }, 'Portfolio')), _react2.default.createElement(_reactstrap.NavItem, null, _react2.default.createElement('div', { id: 'social-media', className: 'conatainer-fluid' }, _react2.default.createElement('div', { className: 'd-flex flex-nowrap justify-content-center' }, _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://github.com/osa10928', target: '_blank' }, _react2.default.createElement('img', { src: _Github2.default, alt: 'Github icon', title: 'Gitgub', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.linkedin.com/in/stephen-agwu/', target: '_blank' }, _react2.default.createElement('img', { src: _Linkedin2.default, alt: 'Linkedin icon', title: 'Linkedin', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://twitter.com/King_DREAMER', target: '_blank' }, _react2.default.createElement('img', { src: _Twitter2.default, alt: 'Twitter icon', title: 'Twitter', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.facebook.com/stephen.agwu', target: '_blank' }, _react2.default.createElement('img', { src: _Facebook2.default, alt: 'Facebook icon', title: 'Facebook', className: 'img-fluid' }))), _react2.default.createElement('div', { className: 'icon-container col' }, _react2.default.createElement('a', { href: 'https://www.instagram.com/osa10928/', target: '_blank' }, _react2.default.createElement('img', { src: _Instagram2.default, alt: 'Instagram icon', title: 'Instagram', className: 'img-fluid' })))))))));
     }
   }]);
 
