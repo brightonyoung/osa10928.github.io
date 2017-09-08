@@ -31510,7 +31510,8 @@ var MainApp = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, (MainApp.__proto__ || Object.getPrototypeOf(MainApp)).call(this, props));
 
 		_this.handleClick = _this.handleClick.bind(_this);
-		_this.transition = _this.transition.bind(_this);
+		_this.transitionHide = _this.transitionHide.bind(_this);
+		_this.transitionShow = _this.transitionShow.bind(_this);
 		_this.transitionEndEventName = _this.transitionEndEventName.bind(_this);
 		_this.removeEvent = _this.removeEvent.bind(_this);
 		return _this;
@@ -31541,17 +31542,17 @@ var MainApp = function (_React$Component) {
 			console.log(destination);
 			switch (destination) {
 				case 'webpages-button':
-					this.transition('webpages-route');
+					this.transitionHide('webpages-route');
 					break;
 
 				case 'codepens-button':
-					this.transition('codepens-route');
+					this.transitionHide('codepens-route');
 					break;
 			}
 		}
 	}, {
-		key: 'transition',
-		value: function transition(route) {
+		key: 'transitionHide',
+		value: function transitionHide(route) {
 			var _this2 = this;
 
 			var app = document.getElementById('App');
@@ -31563,11 +31564,20 @@ var MainApp = function (_React$Component) {
 			app.classList.add('remove-element');
 		}
 	}, {
+		key: 'transitionShow',
+		value: function transitionShow() {
+			var app = document.getElementById('App');
+			setTimeout(function () {
+				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
+				app.classList.add('show-element');
+				console.log('try me');
+			}, 500);
+		}
+	}, {
 		key: 'removeEvent',
 		value: function removeEvent(route) {
 			var _this3 = this;
 
-			console.log('why');
 			var app = document.getElementById('App');
 			var transitionEnd = this.transitionEndEventName();
 			app.removeEventListener(transitionEnd, function () {
@@ -31577,31 +31587,14 @@ var MainApp = function (_React$Component) {
 				document.getElementById(route).click();
 			}, 500);
 		}
-
-		/*
-  	componentWillUpdate() {
-  		var app = document.getElementById('App')
-  		app.classList.contains('show-element') ? app.classList.remove('show-element') : null
-  		app.classList.add('remove-element')
-  		console.log('what')
-  		//while (window.getComputedStyle(app)['max-height'] != '0px') {
-  			//console.log('shutup')
-  			//console.log(window.getComputedStyle(app)['max-height'])
-  		//}
-  		
-  		console.log(window.getComputedStyle(app)['max-height'])
-  	}
-  	
-  */
-
 	}, {
 		key: 'componentDidUpdate',
 		value: function componentDidUpdate() {
 			var app = document.getElementById('App');
 			if (window.getComputedStyle(app)['max-height'] == '0px') {
-				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
-				app.classList.add('show-element');
+				this.transitionShow();
 			}
+			console.log('why');
 		}
 	}, {
 		key: 'render',

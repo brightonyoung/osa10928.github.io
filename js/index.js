@@ -3,7 +3,6 @@
 
 $(document).ready(function(){
 	landingPage.animateEntry()
-	$('nav button').click(navbar.adjustName)
 	$('.about-category').click(function(){
 		aboutPage.loadArticle(this)
 	})
@@ -21,12 +20,6 @@ $(document).ready(function(){
 
 //text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85807/typed.js"
 
-var navbar = {
-	adjustName: function(){
-		$('nav a#name').toggleClass("text-center")
-		$('a#name').toggleClass("self-center")
-	}
-}
 
 var page = {
 	fadePageIn: function(){

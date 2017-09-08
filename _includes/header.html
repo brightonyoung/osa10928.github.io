@@ -2,16 +2,20 @@
 
 
   <nav class="navbar navbar-light bg-faded fixed-top {{ page.title }}-back }}">
-  <a id="name" class="navbar-brand" href="{{ site.url }}"><p>Stephen Agwu</p></a>
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+    <div class="d-flex justify-content-end">
+    <a id="name" class="navbar-brand mr-auto" href="{{ site.url }}"><p>Stephen Agwu</p></a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    </button>
+  </div>
   <div class="collapse navbar-collapse text-center" id="navbarNav">
     <div class="nav navbar-nav">
       <a class="nav-item nav-link active" href="{{ site.url }}/about.html">About</a>
-      <a class="nav-item nav-link active" href="#portfolio-nav">Portfolio</a>
+      <a class="nav-item nav-link active" href="{{ site.url }}/portfolio">Portfolio</a>
     </div>
     <div id="social-media" class="conatainer-fluid">
     <div class="d-flex flex-nowrap justify-content-center">
