@@ -31571,7 +31571,6 @@ var MainApp = function (_React$Component) {
 			var _this2 = this;
 
 			console.log('call-me');
-
 			var app = document.getElementById('App');
 			var transitionEnd = this.transitionEndEventName();
 			app.removeEventListener(transitionEnd, function () {
@@ -31698,8 +31697,8 @@ var OpeningDisplay = function (_React$Component) {
 	_createClass(OpeningDisplay, [{
 		key: 'onClickHandler',
 		value: function onClickHandler(e) {
-			//e.preventDefault();
-			//e.stopPropagation();
+			e.preventDefault();
+			e.stopPropagation();
 			this.props.onClick(e.target.id);
 		}
 	}, {
