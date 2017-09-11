@@ -125,15 +125,15 @@ body {
 }
 
 .webpage-element {
-    max-height: 500px;
+    max-height: 5000px;
 	-webkit-transition: max-height 1s;
-	transition: max-height 1s;
+	transition: max-height 2s;
 }
 
 .codepens-element {
-    max-height: 500px;
+    max-height: 5000px;
     -webkit-transition: max-height 1s;
-	transition: max-height 1s;
+	transition: max-height 2s;
 }
 
 .displayed {
@@ -167,7 +167,7 @@ body {
 }
 
 #App {
-    max-height: 1000px;
+    max-height: 5000px;
 	-webkit-transition: max-height 0.5s;
 	-webkit-transition-delay: 0s;
 	transition: max-height 0.5s;
@@ -175,7 +175,7 @@ body {
 }
 
 .show-element {
-	max-height: 1000px !important;
+	max-height: 5000px !important;
 }
 
 .remove-element {

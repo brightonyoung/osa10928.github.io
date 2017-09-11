@@ -31698,8 +31698,8 @@ var OpeningDisplay = function (_React$Component) {
 	_createClass(OpeningDisplay, [{
 		key: 'onClickHandler',
 		value: function onClickHandler(e) {
-			e.preventDefault();
-			e.stopPropagation();
+			//e.preventDefault();
+			//e.stopPropagation();
 			this.props.onClick(e.target.id);
 		}
 	}, {
