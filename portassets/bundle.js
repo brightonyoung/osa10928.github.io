@@ -31562,7 +31562,7 @@ var MainApp = function (_React$Component) {
 			var app = document.getElementById('App');
 			setTimeout(function () {
 				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
-				app.classList.add('show-element');
+				//app.classList.add('show-element')
 			}, 500);
 		}
 	}, {
@@ -31584,6 +31584,7 @@ var MainApp = function (_React$Component) {
 	}, {
 		key: 'componentDidUpdate',
 		value: function componentDidUpdate() {
+			console.log('dated');
 			var app = document.getElementById('App');
 			if (window.getComputedStyle(app)['max-height'] == '0px') {
 				this.transitionShow();
