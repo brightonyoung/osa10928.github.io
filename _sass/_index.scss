@@ -63,7 +63,8 @@ main {
   font-family: 'Concert One', cursive;
   em {
     font-family: 'Cantarell', sans-serif;
-    color: #9A0B0B;
+    color: #01786F;
+    font-weight: 900;
   }
 }
 
@@ -82,6 +83,9 @@ background: rgba(162, 32, 32, 1);
       heading {
         font-family: 'Saira Semi Condensed', Roboto, sans-serif;
         font-weight: 600;
+        i {
+          color: rgb(244, 162, 162);
+        }
       }
       p {
         font-family: Helvetica;

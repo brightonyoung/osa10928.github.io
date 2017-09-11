@@ -31498,9 +31498,6 @@ function _inherits(subClass, superClass) {
 	}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
 }
 
-//import Display from './app_components/display';
-
-
 var MainApp = function (_React$Component) {
 	_inherits(MainApp, _React$Component);
 
@@ -31539,7 +31536,6 @@ var MainApp = function (_React$Component) {
 	}, {
 		key: 'handleClick',
 		value: function handleClick(destination) {
-			console.log(destination);
 			switch (destination) {
 				case 'webpages-button':
 					this.transitionHide('webpages-route');
@@ -31553,13 +31549,10 @@ var MainApp = function (_React$Component) {
 	}, {
 		key: 'transitionHide',
 		value: function transitionHide(route) {
-			var _this2 = this;
-
+			console.log('called');
 			var app = document.getElementById('App');
 			var transitionEnd = this.transitionEndEventName();
-			app.addEventListener(transitionEnd, function () {
-				_this2.removeEvent(route);
-			}, false);
+			app.addEventListener(transitionEnd, this.removeEvent(route), false);
 			app.classList.contains('show-element') ? app.classList.remove('show-element') : null;
 			app.classList.add('remove-element');
 		}
@@ -31570,18 +31563,19 @@ var MainApp = function (_React$Component) {
 			setTimeout(function () {
 				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
 				app.classList.add('show-element');
-				console.log('try me');
 			}, 500);
 		}
 	}, {
 		key: 'removeEvent',
 		value: function removeEvent(route) {
-			var _this3 = this;
+			var _this2 = this;
+
+			console.log('call-me');
 
 			var app = document.getElementById('App');
 			var transitionEnd = this.transitionEndEventName();
 			app.removeEventListener(transitionEnd, function () {
-				_this3.removeEvent(route);
+				_this2.removeEvent(route);
 			}, false);
 			setTimeout(function () {
 				document.getElementById(route).click();
@@ -31594,15 +31588,15 @@ var MainApp = function (_React$Component) {
 			if (window.getComputedStyle(app)['max-height'] == '0px') {
 				this.transitionShow();
 			}
-			console.log('why');
 		}
 	}, {
 		key: 'render',
 		value: function render() {
-			var _this4 = this;
+			var _this3 = this;
 
+			console.log('lol');
 			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('div', { id: 'route-buttons' }, _react2.default.createElement(_reactRouterDom.Link, { to: '/webpages' }, _react2.default.createElement('button', { id: 'webpages-route' })), _react2.default.createElement(_reactRouterDom.Link, { to: '/codepens' }, _react2.default.createElement('button', { id: 'codepens-route' }))), _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default })), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render(props) {
-					return _react2.default.createElement(_opening_display2.default, _extends({ onClick: _this4.handleClick }, props));
+					return _react2.default.createElement(_opening_display2.default, _extends({ onClick: _this3.handleClick }, props));
 				} }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
 		}
 	}]);
@@ -31703,12 +31697,14 @@ var OpeningDisplay = function (_React$Component) {
 	_createClass(OpeningDisplay, [{
 		key: 'onClickHandler',
 		value: function onClickHandler(e) {
+			e.preventDefault();
+			e.stopPropagation();
 			this.props.onClick(e.target.id);
 		}
 	}, {
 		key: 'render',
 		value: function render() {
-			console.log(this.props);
+			console.log('hey');
 			return _react2.default.createElement('div', { id: 'opening-display' }, _react2.default.createElement('div', { id: 'options' }, _react2.default.createElement('a', { href: '###', onClick: this.onClickHandler, className: 'row', id: 'webpages-option' }, _react2.default.createElement('div', { id: 'webpages-button', className: 'option col text-center btn-lg' }, 'Webpages')), _react2.default.createElement('a', { href: '#', onClick: this.onClickHandler, className: 'row', id: 'codepens-option' }, _react2.default.createElement('div', { id: 'codepens-button', className: 'option col text-center btn-lg' }, 'Codepens'))));
 		}
 	}]);

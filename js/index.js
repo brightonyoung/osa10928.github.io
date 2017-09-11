@@ -62,7 +62,7 @@ var landingPage = {
 		setTimeout(function(){
 			$('#typing').typed({
 				strings: script,
-				typeSpeed: 30,
+				typeSpeed: 20,
 				backSpeed: -10,
 				smartBackspace: true,
 				backDelay: 1000,
