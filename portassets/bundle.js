@@ -31553,16 +31553,16 @@ var MainApp = function (_React$Component) {
 			var app = document.getElementById('App');
 			var transitionEnd = this.transitionEndEventName();
 			app.addEventListener(transitionEnd, this.removeEvent(route), false);
-			app.classList.contains('show-element') ? app.classList.remove('show-element') : null;
-			app.classList.add('remove-element');
+			//app.classList.contains('show-element') ? app.classList.remove('show-element') : null
+			//app.classList.add('remove-element')
 		}
 	}, {
 		key: 'transitionShow',
 		value: function transitionShow() {
 			var app = document.getElementById('App');
 			setTimeout(function () {
-				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
-				app.classList.add('show-element');
+				//app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null
+				//app.classList.add('show-element')
 			}, 600);
 		}
 	}, {
