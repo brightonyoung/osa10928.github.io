@@ -31562,8 +31562,8 @@ var MainApp = function (_React$Component) {
 			var app = document.getElementById('App');
 			setTimeout(function () {
 				app.classList.contains('remove-element') ? app.classList.remove('remove-element') : null;
-				//app.classList.add('show-element')
-			}, 500);
+				app.classList.add('show-element');
+			}, 600);
 		}
 	}, {
 		key: 'removeEvent',
