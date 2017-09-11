@@ -31582,19 +31582,17 @@ var MainApp = function (_React$Component) {
 		}
 	}, {
 		key: 'componentDidUpdate',
-		value: function componentDidUpdate() {
-			console.log('dated');
-			var app = document.getElementById('App');
-			if (window.getComputedStyle(app)['max-height'] == '0px') {
-				this.transitionShow();
-			}
-		}
+		value: function componentDidUpdate() {}
 	}, {
 		key: 'render',
 		value: function render() {
 			var _this3 = this;
 
 			console.log('lol');
+			var app = document.getElementById('App');
+			if (window.getComputedStyle(app)['max-height'] == '0px') {
+				this.transitionShow();
+			}
 			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('div', { id: 'route-buttons' }, _react2.default.createElement(_reactRouterDom.Link, { to: '/webpages' }, _react2.default.createElement('button', { id: 'webpages-route' })), _react2.default.createElement(_reactRouterDom.Link, { to: '/codepens' }, _react2.default.createElement('button', { id: 'codepens-route' }))), _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default })), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render(props) {
 					return _react2.default.createElement(_opening_display2.default, _extends({ onClick: _this3.handleClick }, props));
 				} }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
@@ -31697,8 +31695,8 @@ var OpeningDisplay = function (_React$Component) {
 	_createClass(OpeningDisplay, [{
 		key: 'onClickHandler',
 		value: function onClickHandler(e) {
-			//e.preventDefault();
-			//e.stopPropagation();
+			e.preventDefault();
+			e.stopPropagation();
 			this.props.onClick(e.target.id);
 		}
 	}, {
