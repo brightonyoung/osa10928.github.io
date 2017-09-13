@@ -88,6 +88,17 @@ body {
 	    }
 	}
 }
+
+#webpages-display, #codepens-display {
+    margin-top: 10%;
+    h1 {
+        font-size: 2rem;
+    }	
+    p {
+	    font-size: 0.6em;
+	}
+} 
+
 .technologies {
 	button {
 	    cursor: pointer;
@@ -242,6 +253,14 @@ body {
 	        }
 	    }
 	}
+	#webpages-display, #codepens-display {
+        h1 {
+            font-size: 4rem;
+        }	
+        p {
+	        font-size: 1.2em;
+	    }
+    } 
 	.technologies {
 	    button {
 	        font-size: 1.6em;
@@ -277,6 +296,14 @@ body {
 	        }
 	    }
 	}
+	#webpages-display, #codepens-display {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+	        font-size: 0.6em;
+	    }	
+    } 
 }
 
 @include phones-landscape {

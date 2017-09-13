@@ -31729,7 +31729,7 @@ function _interopRequireDefault(obj) {
 }
 
 var WebpagesTitle = function WebpagesTitle() {
-	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Webpages"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the webpage)"));
+	return _react2.default.createElement("heading", { id: "webpages-title" }, _react2.default.createElement("h1", null, "Webpages"), _react2.default.createElement("p", null, "Check out the different types of webpages I've created thus far. Filter projects by technologies such as Node, React, and Webpack."), _react2.default.createElement("br", null));
 };
 
 exports.default = WebpagesTitle;
@@ -31921,7 +31921,7 @@ var WebsitesDisplay = function (_React$Component) {
 					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id + "-text", style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See webpage ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
 			});
 
-			return _react2.default.createElement('div', { id: 'webpage-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, webpages));
+			return _react2.default.createElement('div', { id: 'webpages-display' }, _react2.default.createElement('header', null, _react2.default.createElement('h1', null, 'Technologies'), _react2.default.createElement('p', null, '(Click the image to see more information about the webpage. Filter by technology by clicking a technology button)')), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, webpages));
 		}
 	}]);
 
@@ -34853,7 +34853,7 @@ function _interopRequireDefault(obj) {
 }
 
 var CodepensTitle = function CodepensTitle() {
-	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"), _react2.default.createElement("p", null, "Here you can check out a few of my codepens. Most of these pens were assignments from ", _react2.default.createElement("a", { href: "https://freecodecamp.com", target: "_blank" }, "FreeCodeCamp"), " and served to introduce me to important Frontend coding concepts such as ajax calls, working in an async environment. These codepens also challenged my knowledge of algorithms and code writing ability (don't sleep on tictactoe). You can also check out all my codepens ", _react2.default.createElement("a", { href: "https://codepen.io/osa10928/pens/public/", target: "_blank" }, "here"), "."), _react2.default.createElement("br", null), _react2.default.createElement("p", null, "(Click on the image to see more information about the codepen)"));
+	return _react2.default.createElement("heading", { id: "codepens-title" }, _react2.default.createElement("h1", null, "Codepens"), _react2.default.createElement("p", null, "Here you can check out a few of my codepens. Most of these pens were assignments from ", _react2.default.createElement("a", { href: "https://freecodecamp.com", target: "_blank" }, "FreeCodeCamp"), " and served to introduce me to important Frontend coding concepts such as ajax calls, working in an async environment. These codepens also challenged my knowledge of algorithms and code writing ability (don't sleep on tictactoe). You can also check out all my codepens ", _react2.default.createElement("a", { href: "https://codepen.io/osa10928/pens/public/", target: "_blank" }, "here"), "."), _react2.default.createElement("br", null));
 };
 
 exports.default = CodepensTitle;
@@ -35059,7 +35059,7 @@ var CodepensDisplay = function (_React$Component) {
 					} }, _react2.default.createElement('div', { className: 'thumbnail' }, _react2.default.createElement('span', { 'data-text': page.name, className: 'text-center' }, _react2.default.createElement('p', { className: 'text-center' }, page.name)), _react2.default.createElement('img', { src: image, className: 'img-fluid', alt: page.id }))), _react2.default.createElement('div', { className: 'more-info collapsed text-center', id: page.id + "-text", style: hidden }, _react2.default.createElement('p', null, page.description), _react2.default.createElement('br', null), _react2.default.createElement('p', null, 'Technologies: ', page.technology.join(' ')), _react2.default.createElement('p', null, 'See codepen ', _react2.default.createElement('a', { href: page.site, target: '_blank' }, 'here'), '!')));
 			});
 
-			return _react2.default.createElement('div', { id: 'codepens-display' }, _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, codepens));
+			return _react2.default.createElement('div', { id: 'codepens-display' }, _react2.default.createElement('header', null, _react2.default.createElement('h1', null, 'Technologies'), _react2.default.createElement('p', null, '(Click the image to see more information about the webpage. Filter by technology by clicking a technology button)')), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-start technologies' }, techButtons), _react2.default.createElement('div', { className: 'd-flex flex-wrap justify-content-center align-items-center displayed' }, codepens));
 		}
 	}]);
 
