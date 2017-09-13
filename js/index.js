@@ -51,7 +51,7 @@ var landingPage = {
 	},
 
 	startTyping: function(){
-		var script = ['Hello! My name is Stephen Agwu.', "I'm a budding UX/UI Frontend Webdeveloper.", "I love challenging and expanding my javascript skill while creating sleek efficient design.", "I'm self-taught, ^1000 self determined, ^1000 and SELF-MADE! ^2000", "Use the navigation below to find out more about me!"]
+		var script = ['Hello! My name is Stephen Agwu.', "I'm a budding UX/UI Frontend Webdeveloper.", "I love challenging and expanding my javascript skill while creating sleek efficient design.", "I'm self-taught, ^1000 self determined, ^1000 and SELF-MADE! ^2000", "Use the links below to find out more about me and my work!"]
 		$('#typing-container').animate({
 			height: '2%',
 			width: '60%'
