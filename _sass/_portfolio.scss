@@ -205,6 +205,16 @@ body {
 	overflow: hidden;
 }
 
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
 @keyframes shake1 {
 	0% {transform: rotateX(0deg);}
 	80% {transform: rotateX(0deg);}
