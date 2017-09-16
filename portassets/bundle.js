@@ -31527,11 +31527,7 @@ var MainApp = function (_React$Component) {
 		key: 'render',
 		value: function render() {
 
-			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactTransitionGroup2.default, {
-				transitionName: 'fade',
-				transitionEnterTimeout: 300,
-				transitionLeaveTimeout: 300
-			}, _react2.default.createElement(_reactRouterDom.Switch, { key: location.pathname, location: location }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default })))), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
+			return _react2.default.createElement('div', { className: 'container-fluid', id: 'main-container' }, _react2.default.createElement('section', { id: 'main-info' }, _react2.default.createElement(_reactRouterDom.Switch, { key: location.pathname, location: location }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_title2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_title2.default }))), _react2.default.createElement('section', { id: 'main-display' }, _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _opening_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/webpages', component: _webpages_display2.default }), _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/codepens', component: _codepens_display2.default })));
 		}
 	}]);
 
